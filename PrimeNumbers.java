@@ -5,7 +5,7 @@ public class PrimeNumbers {
 	public static void main(String[] args) {
 		int input = 13;
 		boolean flag = false;
-		for(int i=2;i<input/2;i++) 
+		for(int i=2;i<=input/2;i++) 
 		{
 			int remind = input%i;
 			if(remind==0) 
